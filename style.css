@@ -79,6 +79,7 @@ header{
     margin: 0 auto;
     border: 2px solid #5c636a;
     border-radius: 0 0 10px 10px;
+    background-color: #5c636a;
 }
 
 .menu li{
@@ -89,17 +90,18 @@ header{
 }
 
 .menu li:hover{
-    background-color: #5c636a;
+    background-color: #fff;
 }
 
 .menu li a{
     font-size: clamp(12px, 1.8vw, 20px);
     text-align: center;
     text-align: center;
+    color: #fff;
 }
 
 .menu li a:hover{
-    color: #fff;
+    color: #5c636a;
 }
 
 .dropdown:hover .menu{

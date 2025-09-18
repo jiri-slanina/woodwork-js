@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  TĚLO CELOÉHO WEBU
+    */
+body{
+    font-family:cursive;
+    width: 100%;
+}
+
+header{
+    background-color: #5c636a;
+    height: auto;
+    width: 100%;
+}
+
+.photo_header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo_header img{
+    width: 12vw;
+}
+
+@media(max-width: 300px) {
+    .photo_header img{
+        display: none;
+    }
+}
+
+.photo_header h1{
+    font-size: clamp(15px, 2.5vw, 40px);
+    position: relative;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #fff;
+}
+
+/*                 MAIN                 */
+
+.nadpis_Webu{
+    text-align: center;
+    font-size: clamp(12px, 2.5vw, 45px);
+    letter-spacing: 2px;
+    word-spacing: 3px;
+    margin-top: 2vw;
+
+}
+
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    top: 100%;
+}
+
+@media(max-width: 1920px),(min-width: 500px) {
+    .dropdown{
+        display: none;
+    }
+}
+
+@media(max-width: 500px) {
+    .dropdown{
+        display: block;
+    }
+}
+
+
+
+.menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    margin: 0 auto;
+    border: 2px solid #5c636a;
+    border-radius: 0 0 10px 10px;
+}
+
+.menu li{
+    margin: 1vw auto;
+    padding: 3px 25px;
+    list-style-type: none;
+    transition: background-color 0.7s;
+}
+
+.menu li:hover{
+    background-color: #5c636a;
+}
+
+.menu li a{
+    font-size: clamp(12px, 1.8vw, 20px);
+    text-align: center;
+    text-align: center;
+}
+
+.menu li a:hover{
+    color: #fff;
+}
+
+.dropdown:hover .menu{
+    display: block;
+}
+
+
+
+
+
+.dropdown_2{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 500px) {
+    .dropdown_2{
+        display: none;
+    }
+}
+
+.dropdown_2 li{
+    list-style-type: none;
+    margin-top: 3vw;
+}
+
+.dropdown_2 li a{
+    text-decoration: none;
+    font-size: clamp(20px, 2.2vw, 38px);
+    color: #5c636a;
+}
+
+.dropdown_2 li a:hover{
+    text-decoration: underline 5px solid #5c636a;
+}
+
+.dropdown a{
+    font-size: clamp(15px, 2vw, 34px);
+    text-decoration: none;
+    color: #5c636a;
+}
+
+
+.vnitrni_obrazek{
+    display: none;
+    margin-top: 5vw;
+}
+
+@media(max-width: 500px) {
+    .vnitrni_obrazek{
+        display: block;
+    }
+}
+
+.vnitrni_obrazek img{
+    width: 50%;
+    position: relative;
+    left: 35vw;
+}
+
+/*  SECTION_1   
+*/
+
+
+
+.section_1{
+    width: 80%;
+    display: flex;
+    margin: 10vw auto;
+    background-image: url();
+}
+
+@media(max-width: 500px){
+    .section_1{
+        justify-content: center;
+    }
+}
+
+.section_1 img{
+    width: 50%;
+    height: auto;
+}
+
+@media(max-width: 600px) {
+    .section_1 img{
+        display: none;
+    }
+}
+
+.info_soustruzeni{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media(max-width: 500px){
+    .info_soustruzeni{
+        width: 100%;
+    }
+}
+
+.info_soustruzeni h2{
+    font-size: clamp(16px, 2vw, 38px);
+    text-align: center;
+    text-decoration: underline 2px solid #5c636a;
+}
+
+.info_soustruzeni p{
+    width: 60vw;
+    font-size: clamp(12px, 1.5vw, 30px);
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+.galerie{
+    margin: 1vw auto;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #5c636a;
+}
+
+.galerie img{
+    width: 20%;
+}

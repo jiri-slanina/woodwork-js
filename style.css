@@ -157,9 +157,9 @@ header{
 }
 
 .vnitrni_obrazek img{
-    width: 50%;
+    width: 60%;
     position: relative;
-    left: 35vw;
+    left: 25vw;
 }
 
 /*  SECTION_1   
@@ -168,9 +168,9 @@ header{
 
 
 .section_1{
-    width: 80%;
+    width: 100%;
     display: flex;
-    margin: 10vw auto;
+    margin: 15vw auto;
     background-image: url();
 }
 

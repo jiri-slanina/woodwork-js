@@ -207,7 +207,7 @@ header{
 .info_soustruzeni h2{
     font-size: clamp(24px, 2vw, 38px);
     text-align: center;
-    color: #aea8a5;
+    color: #fff;
     letter-spacing: 3px;
     text-decoration: underline 4px solid #fff;
 }

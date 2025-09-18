@@ -34,7 +34,7 @@ header{
 .photo_header h1{
     font-size: clamp(15px, 2.5vw, 40px);
     position: relative;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     text-align: center;
     color: #fff;
 }
@@ -43,11 +43,12 @@ header{
 
 .nadpis_Webu{
     text-align: center;
-    font-size: clamp(12px, 2.5vw, 45px);
+    font-size: clamp(18px, 2.5vw, 45px);
     letter-spacing: 2px;
     word-spacing: 3px;
     margin-top: 2vw;
-
+    color: #fff;
+    background-color: #5c636a;
 }
 
 
@@ -203,7 +204,8 @@ header{
 .info_soustruzeni h2{
     font-size: clamp(16px, 2vw, 38px);
     text-align: center;
-    text-decoration: underline 2px solid #5c636a;
+    color: #774936;
+    text-decoration: underline 2px solid #774936;
 }
 
 .info_soustruzeni p{
@@ -219,7 +221,7 @@ header{
     width: 95%;
     display: flex;
     justify-content: space-between;
-    background-color: #5c636a;
+    background-color: #5c636a96;
 }
 
 .galerie img{

@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*  TĚLO CELOÉHO WEBU
+    */
+body{
+    font-family:cursive;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg);
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    height: auto;
+    width: 100%;
+}
+
+.photo_header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.photo_header img{
+    width: 12vw;
+}
+
+@media(max-width: 300px) {
+    .photo_header img{
+        display: none;
+    }
+}
+
+.photo_header h1{
+    font-size: clamp(25px, 2.7vw, 45px);
+    position: relative;
+    letter-spacing: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+/*************************************/
+
+/*
+    MAIN
+    */
+.tlacitko_zpet a{
+    color: #fff;
+    font-size: clamp(15px, 1.8vw, 32px);
+    position: relative;
+    left: 2vw;
+    text-decoration: none;
+    top: -3vw;
+}
+
+.tlacitko_zpet a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.popis_galerie{
+    text-align: center;
+}
+
+.popis_galerie h1{
+    color: #fff;
+    font-size: clamp(20px, 2vw, 38px);
+    text-decoration: underline;
+}
+
+.popis_galerie h2{
+    color: #fff;
+    font-size: clamp(15px, 1.8vw, 30px);
+    border-bottom: 2px solid #fff;
+}
+
+
+.galerie{
+    width: 90%;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    margin: 5vw auto;
+    border-radius: 2vw;
+}
+
+.galerie img{
+    width: 48%;
+    margin: 0 auto;
+}
+
+
+
+
+.footer{
+    display: flex;
+    align-items: end;
+}
+
+.paticka{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    height: 20vh;
+}
+
+footer .paticka .soc_site li{
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+}
+
+footer .paticka .soc_site li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: clamp(16px, 1.5vw, 20px);
+}

@@ -12,7 +12,7 @@ body{
 }
 
 header{
-    background-color: #5c636a;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
     height: auto;
     width: 100%;
 }
@@ -50,7 +50,7 @@ header{
     margin-top: 2vw;
     color: #fff;
     margin-top: 5vw;
-    background-color: #5c636a;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
 }
 
 
@@ -236,7 +236,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-color: #5c636ab0;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
 }
 
 .galerie img{
@@ -252,6 +252,7 @@ header{
 .formular{
     margin: 2vw auto;
     text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
 }
 
 @media(max-width: 500px) {
@@ -282,6 +283,7 @@ header{
 
 .formular form textarea{
     cursor: pointer;
+    text-align: center;
 }
 
 .formular input[type=file]{
@@ -380,4 +382,30 @@ header{
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
     text-decoration: underline 3px solid;
+}
+
+
+
+
+
+.footer{
+    display: flex;
+    align-items: end;
+}
+
+.paticka{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    height: 20vh;
+}
+
+footer .paticka .soc_site li{
+    width: 20vw;
+    text-align: center;
+    padding: 5px;
+}
+
+footer .paticka .soc_site li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: clamp(16px, 1.5vw, 20px);
 }

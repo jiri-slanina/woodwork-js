@@ -189,7 +189,7 @@ header{
     width: 30%;
     height: 30%;
     position: relative;
-    top: 20vw;
+    top: 15vw;
 }
 
 @media(max-width: 600px) {
@@ -220,7 +220,7 @@ header{
 
 .info_soustruzeni p{
     width: 60vw;
-    font-size: clamp(20px, 1.8vw, 30px);
+    font-size: clamp(20px, 1.5vw, 30px);
     text-align: center;
     margin: 10px auto;
     letter-spacing: 2px;
@@ -248,53 +248,76 @@ header{
 /*
     FORMULAR V MAIN    */
 
+.formular{
+    margin: 2vw auto;
+    text-align: center;
+    background-color: #5c636a;
+}
+
+@media(max-width: 500px) {
     .formular{
-        margin: 2vw auto;
-        text-align: center;
-        background-color: #5c636a;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
+}
 
-    @media(max-width: 500px) {
-        .formular{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
-    }
+.formular h3{
+    font-size: clamp(25px, 2.5vw, 38px);
+    color: #fff;
+}
 
-    .formular h3{
-        font-size: clamp(25px, 2.5vw, 38px);
-        color: #fff;
-    }
+.formular form input{
+    margin: 10px auto;
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
-    .formular form input{
-        margin: 10px auto;
-        padding: 5px 10px;
-        border-radius: 8px;
-        cursor: pointer;
-    }
+.formular form p{
+    color: #fff;
+    font-size: clamp(12px, 1.5vw, 23px);
+    background-color: #8d949a94;
+}
 
-    .formular form p{
-        color: #fff;
-        font-size: clamp(12px, 1.5vw, 23px);
-    }
+.formular form textarea{
+    cursor: pointer;
+}
 
-    .formular form textarea{
-        cursor: pointer;
-    }
+.formular input[type=file]{
+    font-size: clamp(10px, 1vw, 28px);
+    color: #fff;
+}
 
-    .formular input[type=file]{
-        font-size: clamp(10px, 1.2vw, 28px);
-    }
+.formular button {
+    padding: 5px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.7s, color 0.7s;
+}
 
-    .formular button {
-        padding: 5px 10px;
-        border-radius: 8px;
-        cursor: pointer;
-        transition: background-color 0.7s, color 0.7s;
-    }
+.formular button:hover{
+    background-color: #8b939c86;
+    color: #fff;
+}
+/******************************************/
 
-    .formular button:hover{
-        background-color: #8b939c86;
-        color: #fff;
-    }
+
+.section_2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section_2 img{
+    width: 50%;
+    margin: 10px auto;
+    background-color: #5c636a;
+    border-radius: 2vw;
+}
+
+.druhy{
+    align-items: start;
+}

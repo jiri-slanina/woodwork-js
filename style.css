@@ -71,7 +71,9 @@ header{
     }
 }
 
-
+.dropdown .tlacitko_menu{
+    font-size: clamp(16px, 2.2vw,36px);
+}
 
 .menu{
     display: none;
@@ -82,6 +84,7 @@ header{
     border-radius: 0 0 10px 10px;
     background-color: #5c636a;
 }
+
 
 .menu li{
     margin: 1vw auto;
@@ -167,7 +170,8 @@ header{
 */
 
 
-
+/*  SECTION_1 V MAIN
+*/
 .section_1{
     width: 100%;
     display: flex;
@@ -222,11 +226,14 @@ header{
     letter-spacing: 2px;
     color: #ece2d0;
 }
+/*  KONEC SECTION_1 V MAIN*/
 
 
+/*
+        GALERIE 4 FOTKY MISKY*/
 .galerie{
     margin: 1vw auto;
-    width: 95%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: #5c636a96;
@@ -235,3 +242,59 @@ header{
 .galerie img{
     width: 20%;
 }
+/* KONEC GALERIE FOTEK*/
+
+
+/*
+    FORMULAR V MAIN    */
+
+    .formular{
+        margin: 2vw auto;
+        text-align: center;
+        background-color: #5c636a;
+    }
+
+    @media(max-width: 500px) {
+        .formular{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+
+    .formular h3{
+        font-size: clamp(25px, 2.5vw, 38px);
+        color: #fff;
+    }
+
+    .formular form input{
+        margin: 10px auto;
+        padding: 5px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .formular form p{
+        color: #fff;
+        font-size: clamp(12px, 1.5vw, 23px);
+    }
+
+    .formular form textarea{
+        cursor: pointer;
+    }
+
+    .formular input[type=file]{
+        font-size: clamp(10px, 1.2vw, 28px);
+    }
+
+    .formular button {
+        padding: 5px 10px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.7s, color 0.7s;
+    }
+
+    .formular button:hover{
+        background-color: #8b939c86;
+        color: #fff;
+    }

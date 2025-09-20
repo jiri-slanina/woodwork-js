@@ -1,6 +1,6 @@
 function zobrazZpravu() {
 
-    let emailInput = document.querySelector(`input[type="email"]`)
+    let emailInput = document.querySelector('input[type="email"]')
     let email = emailInput.value;
 
     if(!email || !email.includes("@")) {
@@ -9,5 +9,21 @@ function zobrazZpravu() {
     }
 
     document.getElementById("odeslat").innerHTML = " 📩 Odesláno 📩 <br> Ozveme se Vám v co nejkratší době. <br> 😊 Děkujeme 😊 "
+
+    document.getElementById("smazatBtn").style.display = "block"
+}
+
+function smazatZpravu() {
+    // vymažeme zprávu
+    document.getElementById("odeslat").innerHTML = "";
+
+    // schováme tlačítko
+    document.getElementById("smazatBtn").style.display = "none";
+
+    // vyprázdníme formulářová pole
+    document.querySelector('input[placeholder="Jméno"]').value = "";
+    document.querySelector('input[placeholder="Příjmení"]').value = "";
+    document.querySelector('input[type="email"]').value = "";
+    document.querySelector('textarea').value = "";
 }
 

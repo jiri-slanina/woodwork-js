@@ -25,7 +25,6 @@
                 <li><a href="#">Misky</a></li>
                 <li><a href="#">Poháry</a></li>
                 <li><a href="#">Dózy</a></li>
-                <li><a href="#">Hračky</a></li>
                 <li><a href="">Galerie</a></li>
                 <li><a href="#">Ceník</a></li>
             </div>
@@ -35,8 +34,6 @@
             <li><a href="#">Misky</a></li>
             <li><a href="#">Poháry</a></li>
             <li><a href="#">Dózy</a></li>
-            <li><a href="#">Hračky</a></li>
-            <li><a href="#">Poptávka</a></li>
             <li><a href="">Galerie</a></li>
             <li><a href="#">Ceník</a></li>
         </div>
@@ -70,14 +67,15 @@
 
         <div class="formular">
             <h3>Zde můžete poslat poptávku Vašeho přání:</h3>
-            <form action="">
+            <form>
                 <input type="text" placeholder="Jméno">
                 <input type="text" placeholder="Příjmení">
-                <input type="email" placeholder="E-mail"> <br>
+                <input type="email" placeholder="E-mail" required>  <br>
                 <textarea name="" rows="10vw" cols="30vw" id=""></textarea> <br>
                 <p>Zde nahrajte Váš návrh / náčrt tvaru produktu</p>
                 <input type="file" id=""> <br>
-                <button>Odeslat</button>
+                <button type="button" onclick="zobrazZpravu()">Odeslat</button>
+                <p id="odeslat"></p>
             </form>
         </div>
 
@@ -105,5 +103,6 @@
 
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>

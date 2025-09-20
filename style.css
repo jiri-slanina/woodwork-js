@@ -166,8 +166,7 @@ header{
     left: 25vw;
 }
 
-/*  SECTION_1   
-*/
+
 
 
 /*  SECTION_1 V MAIN
@@ -175,7 +174,7 @@ header{
 .section_1{
     width: 100%;
     display: flex;
-    margin: 10vw auto;
+    margin: 15vw auto;
     background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
 }
 
@@ -301,6 +300,12 @@ header{
     background-color: #8b939c86;
     color: #fff;
 }
+
+#odeslat{
+    font-size: clamp(16px, 2.2vw, 38px);
+    background-color: #000;
+}
+
 /******************************************/
 
 /*
@@ -337,6 +342,7 @@ header{
 .obrazek_dva{
     margin-top: 2vw;
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     background-color: #5c636abe;
     padding: 5px 12px;

@@ -242,11 +242,12 @@ header{
 .galerie img{
     width: 20%;
 }
-/* KONEC GALERIE FOTEK*/
+/**********************************/
 
 
 /*
-    FORMULAR V MAIN    */
+        FORMULAR V MAIN
+        */
 
 .formular{
     margin: 2vw auto;
@@ -302,7 +303,9 @@ header{
 }
 /******************************************/
 
-
+/*
+        SECTION_2 OBRAZKY MISEK
+        */
 .section_2{
     width: 100%;
     display: flex;
@@ -312,13 +315,62 @@ header{
     background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(img/šedé_pozadí.jpg);
 }
 
-.section_2 img{
-    width: 50%;
-    margin: 10px auto;
-    background-color: #5c636a;
-    border-radius: 2vw;
+.obrazek_jedna{
+    display: flex;
+    align-items: center;
+    background-color: #5c636abe;
+    padding: 5px 12px;
+    border-radius: 0 0 2vw 2vw;
 }
 
-.druhy{
-    align-items: start;
+.obrazek_jedna img{
+    width: 50vw;
+}
+
+.obrazek_jedna p {
+    color: #fff;
+    font-size: clamp(12px, 1.5vw, 32px);
+    text-align: center;
+    text-decoration: underline 3px solid;
+}
+
+.obrazek_dva{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    background-color: #5c636abe;
+    padding: 5px 12px;
+    border-radius: 0 0 2vw 2vw;
+}
+
+.obrazek_dva img{
+    width: 50vw;
+}
+
+.obrazek_dva p{
+    color: #fff;
+    font-size: clamp(12px, 1.5vw, 32px);
+    text-align: center;
+    text-decoration: underline 3px solid;
+}
+
+
+.obrazek_tri{
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    background-color: #5c636abe;
+    padding: 5px 12px;
+    border-radius: 0 0 2vw 2vw;
+}
+
+.obrazek_tri img{
+    width: 50vw;
+}
+
+.obrazek_tri p{
+    color: #fff;
+    font-size: clamp(12px, 1.5vw, 32px);
+    text-align: center;
+    text-decoration: underline 3px solid;
 }

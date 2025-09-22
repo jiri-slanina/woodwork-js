@@ -51,7 +51,6 @@ header{
     position: relative;
     left: 2vw;
     text-decoration: none;
-    top: -3vw;
 }
 
 @media(max-width: 600px) {

@@ -27,3 +27,5 @@ function smazatZpravu() {
     document.querySelector('textarea').value = "";
 }
 
+
+

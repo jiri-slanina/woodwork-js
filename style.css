@@ -406,6 +406,7 @@ footer .paticka .soc_site li a{
     color: #fff;
     text-decoration: none;
     font-size: clamp(12px, 1.5vw, 20px);
+    transition: background-color 0.5s, color 0.5s;
 }
 
 footer .paticka .soc_site li a:hover{

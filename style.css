@@ -252,7 +252,6 @@ header{
 .formular{
     margin: 2vw auto;
     text-align: center;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
 }
 
 @media(max-width: 500px) {
@@ -278,7 +277,6 @@ header{
 .formular form p{
     color: #fff;
     font-size: clamp(12px, 1.5vw, 23px);
-    background-color: #8d949a94;
 }
 
 .formular form textarea{
@@ -320,13 +318,12 @@ header{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(img/šedé_pozadí.jpg);
 }
 
 .obrazek_jedna{
     display: flex;
     align-items: center;
-    background-color: #5c636af3;
+    background-image: url(img/pozadi.jpg);
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
@@ -347,7 +344,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-color: #5c636af3;
+    background-image: url(img/pozadi.jpg);
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
@@ -368,7 +365,7 @@ header{
     margin-top: 2vw;
     display: flex;
     align-items: center;
-    background-color: #5c636af3;
+    background-image: url(img/pozadi.jpg);
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }

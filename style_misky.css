@@ -84,7 +84,7 @@ header{
 
 .galerie{
     width: 90%;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-image: url(img/šedé_pozadí.jpg);
     margin: 5vw auto;
     border-radius: 2vw;
 }

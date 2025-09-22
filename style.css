@@ -407,5 +407,5 @@ footer .paticka .soc_site li{
 footer .paticka .soc_site li a{
     color: #fff;
     text-decoration: none;
-    font-size: clamp(16px, 1.5vw, 20px);
+    font-size: clamp(12px, 1.5vw, 20px);
 }

@@ -65,34 +65,24 @@ header{
     border-bottom: 2px solid #fff;
 }
 
-.popis_galerie{
-    text-align: center;
-}
 
-.popis_galerie h1{
-    color: #fff;
-    font-size: clamp(20px, 2vw, 38px);
-    text-decoration: underline;
-}
-
-.popis_galerie h2{
-    color: #fff;
-    font-size: clamp(15px, 1.8vw, 30px);
-    border-bottom: 2px solid #fff;
-}
-
-
-.galerie{
+.galerie {
     width: 90%;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
-    margin: 5vw auto;
-    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    background-image: url(img/šedé_pozadí.jpg);
 }
 
 .galerie img{
-    width: 48%;
-    margin: 0 auto;
+    width: 55vw;
 }
+
+
+
+
 
 
 
@@ -100,6 +90,7 @@ header{
 .footer{
     display: flex;
     align-items: end;
+    margin-top: 10vw;
 }
 
 .paticka{

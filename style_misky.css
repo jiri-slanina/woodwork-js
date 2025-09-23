@@ -45,11 +45,19 @@ header{
 /*
     MAIN
     */
+
+main{
+    text-align: center;
+}
+
 .tlacitko_zpet a{
     color: #fff;
     font-size: clamp(15px, 1.8vw, 32px);
     position: relative;
     left: 2vw;
+    background-color: rgba(45, 208, 208, 0.621);
+    padding: 2px 5px;
+    border-radius: 0.5vw;
     text-decoration: none;
 }
 
@@ -82,17 +90,23 @@ header{
 
 
 .galerie{
-    width: 90%;
+    width: 100%;
     margin: 5vw auto;
 }
 
 .galerie img{
-    width: 45%;
+    width: 50%;
     margin: 0 auto;
     background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(img/pozadi.jpg);
-    margin: 1vw 2vw;
+    margin: 0.5vw 1vw;
     border-radius: 2vw;
 }
+
+
+
+
+
+
 
 
 

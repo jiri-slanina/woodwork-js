@@ -45,12 +45,21 @@ header{
 /*
     MAIN
     */
+
+main{
+    text-align: center;
+}
+
+
 .tlacitko_zpet a{
     color: #fff;
     font-size: clamp(15px, 1.8vw, 32px);
     position: relative;
     left: 2vw;
     text-decoration: none;
+    background-color: rgba(45, 208, 208, 0.621);
+    padding: 2px 5px;
+    border-radius: 0.5vw;
 }
 
 @media(max-width: 600px) {
@@ -69,6 +78,11 @@ header{
     background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
     height: 70vh;
 }
+
+
+
+
+
 
 
 

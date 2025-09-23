@@ -29,7 +29,8 @@ function smazatZpravu() {
 
 
 
-function infoPohar_1() {
-    document.getElementById("info_1").innerHTML = "Pohár z Olše <br> Průměr: 8cm <br> Výška: 12cm <br> Ošetřeno lakem"
-}
+
+
+
+
 

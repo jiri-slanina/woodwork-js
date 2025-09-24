@@ -65,12 +65,16 @@ main{
 @media(max-width: 600px) {
     .tlacitko_zpet {
         position: relative;
-        top: -4vw;
+        top: 1.5vw;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+        border-radius: 1vw;
     }
-}
+}    
 
 .tlacitko_zpet a:hover{
     border-bottom: 2px solid #fff;
+    color: #000;
 }
 
 

@@ -28,6 +28,45 @@ function smazatZpravu() {
 }
 
 
+/* section_2  / obrazek_jedna   
+   informace o produktech*/
+
+function infoJedna() {
+    document.getElementById("jedna").innerHTML = "Miska na oříšky z Jasanového dřeva <br> <span>Průměr:</span> 110mm <br> <span>Výška:</span> 80mm"
+
+    document.getElementById("skrytBtn_jedna").style.display = "none"
+    document.getElementById("skrytBtn_jedna").style.display = "block"
+}
+
+function smazInfoJedna(){
+    document.getElementById("jedna").innerHTML = ""
+
+    document.getElementById("skrytBtn_jedna").style.display = "block"
+    document.getElementById("skrytBtn_jedna").style.display = "none"
+}
+/****************************************************/
+
+
+/*  obrazek_dva
+    informce o produktech
+    */
+
+function infoDva(){
+    document.getElementById("dva").innerHTML = "Svícen / Hvězda ze smrkového dřeva. <br> <span>Průměr:</span> 220mm. <br>"
+
+    document.getElementById("skrytBtn_dva").style.display = "none"
+    document.getElementById("skrytBtn_dva").style.display = "block"
+}
+
+function smazInfoDva(){
+    document.getElementById("dva").innerHTML = ""
+
+    document.getElementById("skrytBtn_dva").style.display = "block"
+    document.getElementById("skrytBtn_dva").style.display = "none"
+}
+/**********************************************************/
+
+
 
 
 

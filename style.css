@@ -320,6 +320,9 @@ header{
     align-items: center;
 }
 
+
+
+/*                obrazek_jedna       */
 .obrazek_jedna{
     display: flex;
     align-items: center;
@@ -336,9 +339,36 @@ header{
     color: #fff;
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
-    text-decoration: underline 3px solid;
+    text-decoration: underline 2px solid;
 }
 
+.obrazek_jedna button{
+    font-size: clamp(13px, 2vw, 30px);
+    padding: 5px 8px;
+    border-radius: 2vw;
+    background-color: #ade8f476;
+    color: #fff;
+    transition: background 0.7s;
+}
+
+.obrazek_jedna button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#skrytBtn{
+    display: block;
+}
+
+.obrazek_jedna span{
+    color: aqua;
+    font-size: clamp(16px, 1.5vw, 32px);
+}
+/*************************************/
+
+
+
+/*          obrazek_dva       */
 .obrazek_dva{
     margin-top: 2vw;
     display: flex;
@@ -357,9 +387,36 @@ header{
     color: #fff;
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
-    text-decoration: underline 3px solid;
+    text-decoration: underline 2px solid;
 }
 
+.obrazek_dva button{
+    font-size: clamp(13px, 2vw, 30px);
+    padding: 5px 8px;
+    border-radius: 2vw;
+    background-color: #ade8f476;
+    color: #fff;
+    transition: background 0.7s;
+}
+
+.obrazek_dva button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#skrytBtn_dva{
+    display: block;
+}
+
+.obrazek_dva span{
+    color: aqua;
+    font-size: clamp(16px, 1.5vw, 32px);
+}
+/****************************************/
+
+
+
+/*                obrazek_tri            */
 
 .obrazek_tri{
     margin-top: 2vw;
@@ -380,6 +437,10 @@ header{
     text-align: center;
     text-decoration: underline 3px solid;
 }
+/********************************/
+
+
+
 
 
 

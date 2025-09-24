@@ -78,19 +78,25 @@
                 <p id="smazat"></p>
             </form>
         </div>
-
         <div class="section_2">
             <div class="obrazek_jedna">
                 <img src="img/3 3.png" alt="">
-                <p>Malá misečka na oříšky<br>
-                z Jasanového dřeva</p>
+                <div class="info_jedna">
+                    <button onclick="infoJedna()">Více info</button>
+                    <p id="jedna"></p>
+                    <button style="display: none;" id="skrytBtn_jedna" onclick="smazInfoJedna()">Skrýt</button>
+                </div>
             </div>
+
             <div class="obrazek_dva">
-                <img class="druhy" src="img/pohar_tacek.png" alt="">
-                <p>Větší pohár z Buku <br>
-                + <br>
-                menší podtácek z Javoru </p>
+                <img class="druhy" src="img/hvězda.png" alt="">
+                <div class="info_dva">
+                    <button onclick="infoDva()">Více info</button>
+                    <p id="dva"></p>
+                    <button style="display: none;" id="skrytBtn_dva" onclick="smazInfoDva()">Skrýt</button>
+                </div>            
             </div>
+
             <div class="obrazek_tri">
                 <img src="img/popelnik.png" alt="">
                 <p>Zahradní popelník z břízy</p>

@@ -12,7 +12,6 @@ body{
 }
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
     height: auto;
     width: 100%;
 }
@@ -315,31 +314,33 @@ header{
 .section_2{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
     align-items: center;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    text-align: center;
 }
 
 
 
 /*                obrazek_jedna       */
 .obrazek_jedna{
+    width: 100%;
     display: flex;
     align-items: center;
-    background-image: url(img/pozadi.jpg);
+    justify-content: space-around;
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_jedna img{
-    width: 50vw;
+    width: 40vw;
 }
 
 .obrazek_jedna p {
     color: #fff;
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
-    text-decoration: underline 2px solid;
 }
 
 .obrazek_jedna button{
@@ -370,24 +371,24 @@ header{
 
 /*          obrazek_dva       */
 .obrazek_dva{
+    width: 100%;
     margin-top: 2vw;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
-    background-image: url(img/pozadi.jpg);
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_dva img{
-    width: 50vw;
+    width: 40vw;
 }
 
 .obrazek_dva p{
     color: #fff;
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
-    text-decoration: underline 2px solid;
 }
 
 .obrazek_dva button{
@@ -417,27 +418,51 @@ header{
 
 
 /*                obrazek_tri            */
-
 .obrazek_tri{
-    margin-top: 2vw;
+    width: 100%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    background-image: url(img/pozadi.jpg);
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_tri img{
-    width: 50vw;
+    width: 40vw;
 }
 
-.obrazek_tri p{
+.obrazek_tri p {
     color: #fff;
     font-size: clamp(14px, 1.5vw, 32px);
     text-align: center;
-    text-decoration: underline 3px solid;
+}
+
+.obrazek_tri button{
+    font-size: clamp(13px, 2vw, 30px);
+    padding: 5px 8px;
+    border-radius: 2vw;
+    background-color: #ade8f476;
+    color: #fff;
+    transition: background 0.7s;
+}
+
+.obrazek_tri button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+#skrytBtn_tri{
+    display: block;
+}
+
+.obrazek_tri span{
+    color: aqua;
+    font-size: clamp(16px, 1.5vw, 32px);
 }
 /********************************/
+
+
+
 
 
 
@@ -452,7 +477,7 @@ header{
 }
 
 .paticka{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg); */
     background-size: cover;
     height: 20vh;
 }

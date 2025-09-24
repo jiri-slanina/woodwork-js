@@ -79,6 +79,7 @@
             </form>
         </div>
         <div class="section_2">
+
             <div class="obrazek_jedna">
                 <img src="img/3 3.png" alt="">
                 <div class="info_jedna">
@@ -87,7 +88,7 @@
                     <button style="display: none;" id="skrytBtn_jedna" onclick="smazInfoJedna()">Skrýt</button>
                 </div>
             </div>
-
+<br>
             <div class="obrazek_dva">
                 <img class="druhy" src="img/hvězda.png" alt="">
                 <div class="info_dva">
@@ -96,10 +97,14 @@
                     <button style="display: none;" id="skrytBtn_dva" onclick="smazInfoDva()">Skrýt</button>
                 </div>            
             </div>
-
+<br>
             <div class="obrazek_tri">
                 <img src="img/popelnik.png" alt="">
-                <p>Zahradní popelník z břízy</p>
+                <div class="info_tri">
+                    <button onclick="infoTri()">Více info</button>
+                    <p id="tri"></p>
+                    <button style="display: none;" id="skrytBtn_tri" onclick="smazInfoTri()">Skrýt</button>
+                </div>
             </div>
         </div>
     </main>

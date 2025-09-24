@@ -67,6 +67,23 @@ function smazInfoDva(){
 /**********************************************************/
 
 
+/*  obrazek_tri
+    více info
+    */
+
+function infoTri(){
+    document.getElementById("tri").innerHTML = "Zahradní popelník z břízy. <br> <span>Průměr:</span> 70mm. <br> <span>Výška:</span> 40mm."
+
+    document.getElementById("skrytBtn_tri").style.display = "none"
+    document.getElementById("skrytBtn_tri").style.display = "block"
+}
+
+function smazInfoTri(){
+    document.getElementById("tri").innerHTML = ""
+
+    document.getElementById("skrytBtn_tri").style.display = "block"
+    document.getElementById("skrytBtn_tri").style.display = "none"
+}
 
 
 

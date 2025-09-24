@@ -343,6 +343,10 @@ header{
     text-align: center;
 }
 
+#jedna{
+    font-size: clamp(18px, 2vw, 32px);
+}
+
 .obrazek_jedna button{
     font-size: clamp(13px, 2vw, 30px);
     padding: 5px 8px;
@@ -391,6 +395,10 @@ header{
     text-align: center;
 }
 
+#dva{
+    font-size: clamp(18px, 2vw, 32px);
+}
+
 .obrazek_dva button{
     font-size: clamp(13px, 2vw, 30px);
     padding: 5px 8px;
@@ -435,6 +443,10 @@ header{
     color: #fff;
     font-size: clamp(16px, 1.5vw, 32px);
     text-align: center;
+}
+
+#tri{
+    font-size: clamp(18px, 2vw, 32px);
 }
 
 .obrazek_tri button{

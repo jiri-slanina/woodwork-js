@@ -351,14 +351,14 @@ header{
     font-size: clamp(13px, 2vw, 30px);
     padding: 5px 8px;
     border-radius: 2vw;
-    background-color: #ade8f476;
+    background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
 }
 
 .obrazek_jedna button:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 #skrytBtn{
@@ -403,14 +403,14 @@ header{
     font-size: clamp(13px, 2vw, 30px);
     padding: 5px 8px;
     border-radius: 2vw;
-    background-color: #ade8f476;
+    background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
 }
 
 .obrazek_dva button:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 #skrytBtn_dva{
@@ -453,14 +453,14 @@ header{
     font-size: clamp(13px, 2vw, 30px);
     padding: 5px 8px;
     border-radius: 2vw;
-    background-color: #ade8f476;
+    background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
 }
 
 .obrazek_tri button:hover{
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 #skrytBtn_tri{

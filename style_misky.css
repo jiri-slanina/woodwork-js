@@ -100,19 +100,107 @@ main{
 .galerie img{
     width: 50%;
     margin: 0 auto;
-    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(img/pozadi.jpg);
-    margin: 0.5vw 1vw;
-    border-radius: 2vw;
+}
+
+.nadpisy{
+    color: #abc4ff;
+    font-size: clamp(20px, 2vw, 336px);
 }
 
 
 
+.miska_1{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_1 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+
+.miska_1 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+}
+/****************************************/
 
 
+.miska_2{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_2 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+/****************************************/
 
 
+.miska_3{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_3 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+/****************************************/
+
+.miska_4{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_4 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+
+/****************************************/
+
+.miska_5{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_5 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+
+/****************************************/
 
 
+.miska_6{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    width: 80%;
+    margin: 2vw auto;
+    border-radius: 2vw;
+}
+
+.miska_6 h2{
+    color: #fff;
+    font-size: clamp(18px, 2vw, 32px);
+}
+
+/****************************************/
 
 .footer{
     display: flex;

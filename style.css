@@ -317,7 +317,7 @@ header{
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/šedé_pozadí.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
     text-align: center;
 }
 

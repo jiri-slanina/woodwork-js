@@ -113,7 +113,13 @@ main h2{
     font-size: clamp(18px, 2.2vw, 38px);
 }
 
+.section_1 img{
+    width: 30vw;
+}
+
+
 .section_2{
+    margin-top: 5vw;
     width: 60%;
     display: flex;
     background-color: #495057cd;
@@ -123,5 +129,9 @@ main h2{
     color: #ced4da;
     letter-spacing: 4px;
     font-size: clamp(18px, 2.2vw, 38px);
+}
+
+.section_2 img{
+    width: 30vw;
 }
 

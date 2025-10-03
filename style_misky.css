@@ -128,6 +128,14 @@ main{
     border-radius: 1vw;
     background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+
+}
+
+.miska_1 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
 }
 /****************************************/
 
@@ -143,6 +151,23 @@ main{
     color: #fff;
     font-size: clamp(18px, 2vw, 32px);
 }
+
+
+.miska_2 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+}
+
+.miska_2 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
+}
 /****************************************/
 
 
@@ -157,6 +182,23 @@ main{
     color: #fff;
     font-size: clamp(18px, 2vw, 32px);
 }
+
+.miska_3 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+}
+
+.miska_3 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
+}
+
 /****************************************/
 
 .miska_4{
@@ -169,6 +211,22 @@ main{
 .miska_4 h2{
     color: #fff;
     font-size: clamp(18px, 2vw, 32px);
+}
+
+.miska_4 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+}
+
+.miska_4 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
 }
 
 /****************************************/
@@ -185,6 +243,22 @@ main{
     font-size: clamp(18px, 2vw, 32px);
 }
 
+.miska_5 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+}
+
+.miska_5 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
+}
+
 /****************************************/
 
 
@@ -198,6 +272,22 @@ main{
 .miska_6 h2{
     color: #fff;
     font-size: clamp(18px, 2vw, 32px);
+}
+
+.miska_6 button{
+    display: block;
+    margin: 0 auto;
+    padding: 1vw 1.5vw;
+    border-radius: 1vw;
+    background-color: #abc4ff;
+    font-size: clamp(10px, 1.2vw, 18px);
+    cursor: pointer;
+    transition: background 0.7s, color 0.7s;
+}
+
+.miska_6 button:hover{
+    background-color: #abc4ff8b;
+    color: #fff;
 }
 
 /****************************************/

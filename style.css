@@ -49,7 +49,8 @@ header{
     margin-top: 2vw;
     color: #fff;
     margin-top: 5vw;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-color: #5c636a;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
 }
 
 
@@ -141,10 +142,11 @@ header{
     border-radius: 10px;
     border: 2px solid ;
     border-color: #fff;
+    transition: background 0.3s;
 }
 
 .dropdown_2 li a:hover{
-    text-decoration: underline 5px solid #fff;
+    background-color: #343a40;
 }
 
 .dropdown a{
@@ -240,7 +242,8 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-color: #fff;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
 }
 
 .galerie img{
@@ -359,6 +362,7 @@ header{
     background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
+    cursor: pointer;
 }
 
 .obrazek_jedna button:hover{
@@ -411,6 +415,7 @@ header{
     background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
+    cursor: pointer;
 }
 
 .obrazek_dva button:hover{
@@ -461,6 +466,7 @@ header{
     background-color: #343a40;
     color: #fff;
     transition: background 0.7s;
+    cursor: pointer;
 }
 
 .obrazek_tri button:hover{

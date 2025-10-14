@@ -5,6 +5,10 @@ function zobrazZpravu() {
 
     if(!email || !email.includes("@")) {
         document.getElementById("odeslat").innerHTML = "⚠️ Chyba ⚠️ <br> Zkontrolujte své údaje.";
+
+        setTimeout(function(){
+            document.getElementById("odeslat").innerHTML = ""
+        }, 1000);
         return;
     }
 

@@ -8,7 +8,7 @@
 body{
     font-family:cursive;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg); */
 }
 
 header{
@@ -36,12 +36,13 @@ header{
     position: relative;
     letter-spacing: 10px;
     text-align: center;
-    color: #fff;
+    color: #9c6644;
 }
 
 /*                 MAIN                 */
 
 .nadpis_Webu{
+    width: 100%;
     text-align: center;
     font-size: clamp(18px, 2.5vw, 45px);
     letter-spacing: 2px;
@@ -49,7 +50,8 @@ header{
     margin-top: 2vw;
     color: #fff;
     margin-top: 5vw;
-    background-color: #5c636a;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-size: cover;
     /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
 }
 
@@ -83,7 +85,7 @@ header{
     margin: 0 auto;
     border: 2px solid #5c636a;
     border-radius: 0 0 10px 10px;
-    background-color: #9c6644;
+    background-color: #fff;
 }
 
 
@@ -95,14 +97,14 @@ header{
 }
 
 .menu li:hover{
-    background-color: #fff;
+    background-color: #343a40;
 }
 
 .menu li a{
     font-size: clamp(12px, 2vw, 32px);
     text-align: center;
     text-align: center;
-    color: #fff;
+    color: #343a40;
 }
 
 .menu li a:hover{
@@ -141,18 +143,21 @@ header{
     padding: 5px 10px;
     border-radius: 20px;
     border: 2px solid ;
-    border-color: #fff;
+    border-color: #9c6644;
+    box-shadow: 2px 2px 2px 2px #9c6644;
     transition: background 0.3s;
 }
 
 .dropdown_2 li a:hover{
     background-color: transparent;
+    color: #343a40;
+    box-shadow: 2px 2px 2px 2px #343a40;
 }
 
 .dropdown a{
     font-size: clamp(15px, 2vw, 34px);
     text-decoration: none;
-    color: #fff;
+    color: #343a40
 }
 
 
@@ -180,8 +185,8 @@ header{
 */
 .section_1{
     margin: 50px auto;
-    background-color: #5c636a;
-    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    background-size: cover;
 }
 
 @media(max-width: 500px){
@@ -242,7 +247,7 @@ header{
     text-align: center;
     margin: 10px auto;
     letter-spacing: 2px;
-    color: #000;
+    color: #9c6644;
 }
 
 .info_soustruzeni .prvni_sekce{
@@ -299,7 +304,10 @@ header{
 
 .formular{
     /* background-color: #ffffff86;; */
+    width: 70%;
     margin: 2vw auto;
+    border-top: 3px solid #343a40;
+    border-bottom: 3px solid #343a40;
     text-align: center;
 }
 
@@ -313,7 +321,7 @@ header{
 
 .formular h3{
     font-size: clamp(25px, 2.5vw, 38px);
-    color: #fff;
+    color: #343a40;
 }
 
 .formular form input{
@@ -324,7 +332,7 @@ header{
 }
 
 .formular form p{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(12px, 1.5vw, 23px);
 }
 
@@ -335,7 +343,7 @@ header{
 
 .formular input[type=file]{
     font-size: clamp(10px, 1vw, 28px);
-    color: #fff;
+    color: #343a40;
 }
 
 .formular button {
@@ -351,8 +359,10 @@ header{
 }
 
 #odeslat{
+    margin: 2vw auto;
+    width: 100%;
     font-size: clamp(16px, 2.2vw, 38px);
-    background-color: #000;
+    background-color: #fff;
 }
 
 

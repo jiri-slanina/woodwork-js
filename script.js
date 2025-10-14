@@ -10,7 +10,7 @@ function zobrazZpravu() {
 
         setTimeout(function(){
             document.getElementById("odeslat").innerHTML = ""
-        }, 1000);
+        }, 2000);
         return;
     }
 

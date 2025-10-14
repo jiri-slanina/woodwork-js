@@ -263,7 +263,7 @@ header{
                             */
 .about_me{
     width: 100%;
-    margin: 40px auto;
+    margin: 5vw auto;
     background-color: #fff;
 }
 
@@ -278,13 +278,16 @@ header{
 }
 
 .about_me p{
+    font-size: clamp(16px, 1.5vw, 18px);
     color: #2b2d2e;
     text-align: center;
+    margin: 10px auto
 }
 
 .about_me .pozdrav{
     font-size: clamp(22px, 2vw, 24px);
     display: block;
+    margin-bottom: 10px;
 }
 
 

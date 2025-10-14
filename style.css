@@ -179,10 +179,9 @@ header{
 /*  SECTION_1 V MAIN
 */
 .section_1{
-    width: 100%;
-    display: flex;
-    margin: 5vw auto;
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    margin: 20px auto;
+    background-color: #ffffff86;
+    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
 }
 
 @media(max-width: 500px){
@@ -198,17 +197,18 @@ header{
     top: 8vw;
 }
 
-@media(max-width: 600px) {
+@media(max-width: 500px) {
     .section_1 img{
         display: none;
     }
 }
 
-.info_soustruzeni{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+@media(min-width: 500px){
+    .section_1 img{
+        display: none;
+    }
 }
+
 
 @media(max-width: 500px){
     .info_soustruzeni{
@@ -216,40 +216,28 @@ header{
     }
 }
 
+.info_soustruzeni{
+    margin: 0 auto;
+}
+
 .info_soustruzeni h2{
-    font-size: clamp(24px, 2vw, 32px);
+    font-size: clamp(18px, 2vw, 26px);
     text-align: center;
     color: #fff;
     letter-spacing: 3px;
-    text-decoration: underline 4px solid #fff;
+
 }
 
 .info_soustruzeni p{
-    width: 60vw;
-    font-size: clamp(18px, 1.2vw, 24px);
+    /* width: 60vw; */
+    font-size: clamp(12px, 1.2vw, 20px);
     text-align: center;
     margin: 10px auto;
     letter-spacing: 2px;
-    color: #ece2d0;
+    color: #000;
 }
 /*  KONEC SECTION_1 V MAIN*/
 
-
-/*
-        GALERIE 4 FOTKY MISKY*/
-.galerie{
-    margin: 1vw auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #fff;
-    /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
-}
-
-.galerie img{
-    width: 25%;
-}
-/**********************************/
 
 
 /*
@@ -257,6 +245,7 @@ header{
         */
 
 .formular{
+    background-color: #343a40;
     margin: 2vw auto;
     text-align: center;
 }

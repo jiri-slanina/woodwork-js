@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="other/Grid/grid.css">
     <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/x-icon">
     <title>WoodWork - JS</title>
 </head>
@@ -39,34 +40,50 @@
             <img src="img/soustruzeni.png" alt="">
         </div>
 
-        <div class="section_1">
+        <div class="section_1 row">
             <img src="img/soustruzeni.png" alt="">
-            <div class="info_soustruzeni">
-                <h2>* Tvarování dřeva do kruhu</h2>
-                <p>ručně bys kulatý tvar (např. noha od stolu nebo miska) jen těžko udělal. Soustruh ti to umožní rychle a přesně.</p><br>
-                <h2>* Kreativita a radost z tvorby</h2>
-                <p>soustružení je hodně o fantazii. Každý kus dřeva je jiný a ty z něj můžeš udělat originální výrobek.</p> <br>
-                <h2>* Spojení řemesla a relaxu</h2>
-                <p>soustružení uklidňuje, protože sleduješ, jak se surový kus dřeva mění pod rukama.</p> <br>
-                <h2>* Využití zbytků</h2>
-                <p>často stačí i menší odřezky nebo suky a dá se z nich vyrobit něco hezkého a praktického.</p> <br>
-                <h2>* Tradiční řemeslo</h2>
-                <p>soustružení patří k nejstarším technikám opracování dřeva a dodnes má svoje kouzlo.</p>
+            <div class="info_soustruzeni ">
+
+                <div class="col span-1-of-4">
+                    <h2>Tvarování dřeva do kruhu</h2>
+                    <p>ručně bys kulatý tvar (např. noha od stolu nebo miska) jen těžko udělal. Soustruh ti to umožní rychle a přesně.</p>
+                </div>
+                
+                <div class="col span-1-of-4">
+                    <h2>Kreativita a radost z tvorby</h2>
+                    <p>soustružení je hodně o fantazii. Každý kus dřeva je jiný a ty z něj můžeš udělat originální výrobek.</p>
+                </div> 
+
+                <div class="col span-1-of-4">
+                    <h2>Spojení řemesla a relaxu</h2>
+                    <p>soustružení uklidňuje, protože sleduješ, jak se surový kus dřeva mění pod rukama.</p>
+                </div>
+
+                <div class="col span-1-of-4">
+                    <h2>Spojení řemesla a relaxu</h2>
+                    <p>soustružení uklidňuje, protože sleduješ, jak se surový kus dřeva mění pod rukama.</p>
+                </div>
+
+                <div class="col span-4-of-4">
+                    <h2>Využití zbytků</h2>
+                    <p>často stačí i menší odřezky nebo suky a dá se z nich vyrobit něco hezkého a praktického.</p>
+                </div>
+                 
+                <div class="col span-4-of-4">
+                    <h2>Tradiční řemeslo</h2>
+                    <p>soustružení patří k nejstarším technikám opracování dřeva a dodnes má svoje kouzlo.</p>
+                </div>
+                
             </div>
         </div>
 
-        <div class="galerie">
-            <img src="img/placatka2.png" alt="">
-            <img src="img/miska2.png" alt="">
-            <img src="img/placatka.png" alt="">
-            <img src="img/miska.png" alt="">
-        </div>
+
 
         <div class="formular">
             <h3>Zde můžete poslat poptávku dle Vašeho přání:</h3>
             <form>
-                <input type="text" placeholder="Jméno">
-                <input type="text" placeholder="Příjmení">
+                <input id="Fname" type="text" placeholder="Jméno">
+                <input id="secName" type="text" placeholder="Příjmení">
                 <input type="email" placeholder="E-mail" required>  <br>
                 <textarea name="" rows="10vw" cols="30vw" id="">Tu vypište zprávu</textarea> <br>
                 <p>Zde nahrajte Váš návrh / náčrt tvaru produktu</p>

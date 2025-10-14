@@ -138,19 +138,18 @@ header{
 .dropdown_2 li a{
     text-decoration: none;
     font-size: clamp(20px, 2.2vw, 36px);
-    color: #fff;
-    background-color: #9c6644;
+    color: #343a40;
     padding: 5px 10px;
     border-radius: 20px;
     border: 2px solid ;
-    border-color: #9c6644;
-    box-shadow: 2px 2px 2px 2px #9c6644;
+    box-shadow: 2px 2px 2px 2px ;
     transition: background 0.3s;
 }
 
 .dropdown_2 li a:hover{
-    background-color: transparent;
-    color: #343a40;
+    background-color: #9c6644;
+    color: #fff;
+    border-color: #9c6644;
     box-shadow: 2px 2px 2px 2px #343a40;
 }
 
@@ -247,7 +246,7 @@ header{
     text-align: center;
     margin: 10px auto;
     letter-spacing: 2px;
-    color: #9c6644;
+    color: #dac3b5;
 }
 
 .info_soustruzeni .prvni_sekce{

@@ -135,18 +135,18 @@ header{
 
 .dropdown_2 li a{
     text-decoration: none;
-    font-size: clamp(20px, 2.2vw, 38px);
+    font-size: clamp(20px, 2.2vw, 36px);
     color: #fff;
-    background-color: #5c636a;
+    background-color: #9c6644;
     padding: 5px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid ;
     border-color: #fff;
     transition: background 0.3s;
 }
 
 .dropdown_2 li a:hover{
-    background-color: #343a40;
+    background-color: transparent;
 }
 
 .dropdown a{
@@ -179,8 +179,8 @@ header{
 /*  SECTION_1 V MAIN
 */
 .section_1{
-    margin: 20px auto;
-    background-color: #ffffff86;
+    margin: 50px auto;
+    background-color: #5c636a;
     /* background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg); */
 }
 
@@ -220,8 +220,16 @@ header{
     margin: 0 auto;
 }
 
+@media(max-width: 500px){
+    .info_soustruzeni{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+
 .info_soustruzeni h2{
-    font-size: clamp(18px, 2vw, 26px);
+    font-size: clamp(16px, 2vw, 26px);
     text-align: center;
     color: #fff;
     letter-spacing: 3px;
@@ -236,8 +244,47 @@ header{
     letter-spacing: 2px;
     color: #000;
 }
+
+.info_soustruzeni .prvni_sekce{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info_soustruzeni .druha_sekce{
+    display: flex;
+    justify-content: space-around;
+}
+
+
 /*  KONEC SECTION_1 V MAIN*/
 
+
+/*  SEKCE ABOUT ME / O MNĚ
+                            */
+.about_me{
+    width: 100%;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+.about_me h3{
+    width: 10vw;
+    margin: 30px auto;
+    font-size: clamp(18px, 1.8vw, 38px);
+    color: #000000b9;
+    text-align: center;
+    border-bottom: 2px solid #5c636a;
+}
+
+.about_me p{
+    color: #2b2d2e;
+    text-align: center;
+}
+
+.about_me .pozdrav{
+    font-size: clamp(22px, 2vw, 24px);
+    display: block;
+}
 
 
 /*
@@ -245,7 +292,7 @@ header{
         */
 
 .formular{
-    background-color: #343a40;
+    /* background-color: #ffffff86;; */
     margin: 2vw auto;
     text-align: center;
 }
@@ -325,13 +372,13 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_jedna img{
-    width: 40vw;
+    width: 30vw;
 }
 
 .obrazek_jedna p {
@@ -377,14 +424,14 @@ header{
     margin-top: 2vw;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_dva img{
-    width: 40vw;
+    width: 30vw;
 }
 
 .obrazek_dva p{
@@ -428,14 +475,14 @@ header{
 .obrazek_tri{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     padding: 5px 12px;
     border-radius: 0 0 2vw 2vw;
 }
 
 .obrazek_tri img{
-    width: 40vw;
+    width: 30vw;
 }
 
 .obrazek_tri p {

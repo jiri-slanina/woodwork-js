@@ -91,7 +91,13 @@ function smazInfoTri(){
     document.getElementById("skrytBtn_tri").style.display = "block"
     document.getElementById("skrytBtn_tri").style.display = "none"
 }
+/*************************************************************/
 
+
+
+/*  
+        MISKY.HTML
+                    */
 
 
 

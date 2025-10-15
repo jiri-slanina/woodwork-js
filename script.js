@@ -39,7 +39,7 @@ function smazatZpravu() {
                             */
 
 function infoJedna() {
-    document.getElementById("jedna").innerHTML = "Miska na oříšky z Jasanového dřeva <br> <span>Průměr:</span> 110mm <br> <span>Výška:</span> 80mm"
+    document.getElementById("jedna").innerHTML = " <span>Miska na oříšky z Jasanového dřeva </span> <br> 110mm <br> Výška: 80mm"
 
     document.getElementById("skrytBtn_jedna").style.display = "none"
     document.getElementById("skrytBtn_jedna").style.display = "block"
@@ -59,7 +59,7 @@ function smazInfoJedna(){
                             */
 
 function infoDva(){
-    document.getElementById("dva").innerHTML = "Svícen / Hvězda ze smrkového dřeva. <br> <span>Průměr:</span> 220mm. <br>"
+    document.getElementById("dva").innerHTML = " <span>Svícen / Hvězda ze smrkového dřeva.</span> <br> Průměr: 220mm. <br>"
 
     document.getElementById("skrytBtn_dva").style.display = "none"
     document.getElementById("skrytBtn_dva").style.display = "block"
@@ -79,7 +79,7 @@ function smazInfoDva(){
                     */
 
 function infoTri(){
-    document.getElementById("tri").innerHTML = "Zahradní popelník z břízy. <br> <span>Průměr:</span> 70mm. <br> <span>Výška:</span> 40mm."
+    document.getElementById("tri").innerHTML = " <span>Zahradní popelník z břízy.</span> <br> Průměr: 70mm. <br> Výška: 40mm."
 
     document.getElementById("skrytBtn_tri").style.display = "none"
     document.getElementById("skrytBtn_tri").style.display = "block"

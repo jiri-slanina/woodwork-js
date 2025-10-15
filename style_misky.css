@@ -145,6 +145,11 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+}
+
+.miska_1 img{
+    width: 30vw;
 }
 
 .miska_1 h2{
@@ -157,14 +162,16 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
 }
 
 .miska_1 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 /****************************************/
@@ -175,6 +182,11 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+}
+
+.miska_2 img{
+    width: 30vw;
 }
 
 .miska_2 h2{
@@ -188,14 +200,16 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_2 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 /****************************************/
@@ -206,6 +220,12 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+
+}
+
+.miska_3 img{
+    width: 30vw;
 }
 
 .miska_3 h2{
@@ -218,14 +238,16 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.3s, color 0.3s;
 }
 
 .miska_3 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 
@@ -236,6 +258,11 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+}
+
+.miska_4 img{
+    width: 30vw;
 }
 
 .miska_4 h2{
@@ -248,14 +275,16 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_4 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 
@@ -266,6 +295,11 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+}
+
+.miska_5 img{
+    width: 30vw;
 }
 
 .miska_5 h2{
@@ -278,14 +312,16 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_5 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 
@@ -297,6 +333,11 @@ main{
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
+    box-shadow: 5px 5px 5px #9c6644;
+}
+
+.miska_6 img{
+    width: 30vw;
 }
 
 .miska_6 h2{
@@ -309,6 +350,8 @@ main{
     margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
+    background-color: #9c6644;
+    color: #fff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     box-shadow: 3px 3px 3px #343a40;
@@ -316,8 +359,8 @@ main{
 }
 
 .miska_6 button:hover{
-    background-color: #9c6644;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
     border-color: #9c6644;
 }
 

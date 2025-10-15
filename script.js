@@ -35,7 +35,8 @@ function smazatZpravu() {
 
 
 /* section_2  / obrazek_jedna   
-   informace o produktech*/
+   informace o produktech
+                            */
 
 function infoJedna() {
     document.getElementById("jedna").innerHTML = "Miska na oříšky z Jasanového dřeva <br> <span>Průměr:</span> 110mm <br> <span>Výška:</span> 80mm"
@@ -55,7 +56,7 @@ function smazInfoJedna(){
 
 /*  obrazek_dva
     informce o produktech
-    */
+                            */
 
 function infoDva(){
     document.getElementById("dva").innerHTML = "Svícen / Hvězda ze smrkového dřeva. <br> <span>Průměr:</span> 220mm. <br>"
@@ -75,7 +76,7 @@ function smazInfoDva(){
 
 /*  obrazek_tri
     více info
-    */
+                    */
 
 function infoTri(){
     document.getElementById("tri").innerHTML = "Zahradní popelník z břízy. <br> <span>Průměr:</span> 70mm. <br> <span>Výška:</span> 40mm."

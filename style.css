@@ -257,6 +257,8 @@ header{
 }
 
 .info_soustruzeni h2{
+    width: 40vw;
+    margin: 0 auto;
     font-size: clamp(16px, 2vw, 26px);
     text-align: center;
     color: #fff;
@@ -265,7 +267,7 @@ header{
 }
 
 .info_soustruzeni p{
-    /* width: 60vw; */
+    width: 30vw;
     font-size: clamp(12px, 1.2vw, 20px);
     text-align: center;
     margin: 10px auto;

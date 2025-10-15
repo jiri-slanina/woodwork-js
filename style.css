@@ -150,6 +150,7 @@ header{
 
 
 .dropdown_2{
+    margin: 2vw auto;
     display: flex;
     justify-content: space-around;
 }
@@ -180,7 +181,7 @@ header{
 
 .dropdown_2 li a:hover{
     color: #fff;
-    background-color: #343a40;
+    background-color: #9c6644e0;
     border-radius: 1vw;
     border-bottom: none;
     border-top: none;

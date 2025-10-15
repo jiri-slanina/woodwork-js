@@ -320,6 +320,16 @@ header{
     margin-bottom: 10px;
 }
 
+.about_section{
+    width: 100vw;
+    margin: 0 auto;
+}
+
+.about_section p{
+    width: 45vw;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 

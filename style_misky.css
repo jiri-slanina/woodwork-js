@@ -8,7 +8,7 @@
 body{
     font-family:cursive;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg); */
 }
 
 header{
@@ -25,20 +25,43 @@ header{
     width: 12vw;
 }
 
+@media(max-width: 600px) {
+    .photo_header img{
+        width: 100px;
+    }
+}
+
 @media(max-width: 300px) {
     .photo_header img{
-        display: none;
+        display: block;
     }
 }
 
 .photo_header h1{
-    font-size: clamp(25px, 2.7vw, 45px);
+    font-size: clamp(16px, 2.7vw, 45px);
     position: relative;
     letter-spacing: 10px;
     text-align: center;
-    color: #fff;
+    color: #9c6644;
 }
 
+@media(max-width: 800px) {
+    .photo_header h1{
+        margin-top: 30px;
+    }
+}
+
+.photo_header p{
+    margin-top: 40px;
+    color: #343a40;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+@media(max-width: 800px) {
+    .photo_header p{
+        display: none;
+    }
+}
 /*************************************/
 
 /*
@@ -47,17 +70,19 @@ header{
 
 main{
     text-align: center;
+    margin: 2vw auto;
 }
 
 .tlacitko_zpet a{
     color: #fff;
     font-size: clamp(15px, 1.8vw, 32px);
     position: relative;
-    left: 2vw;
-    background-color: rgba(45, 208, 208, 0.621);
-    padding: 2px 5px;
+    left: 0;
+    background-color: #343a40ad;
+    padding: 3px 8px;
     border-radius: 0.5vw;
     text-decoration: none;
+    transition: background 0.3s, color 0.3s;
 }
 
 @media(max-width: 600px) {
@@ -72,21 +97,27 @@ main{
 
 .tlacitko_zpet a:hover{
     border-bottom: 2px solid #fff;
-    color: #000;
+    color: #9c6644;
+    background-color: #fff;
+    border-bottom: 2px solid #9c6644;
 }
 
+
+
+
 .popis_galerie{
+    margin-top: 30px;
     text-align: center;
 }
 
 .popis_galerie h1{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(20px, 2vw, 38px);
     text-decoration: underline;
 }
 
 .popis_galerie h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(15px, 1.8vw, 30px);
     border-bottom: 2px solid #fff;
 }
@@ -103,191 +134,191 @@ main{
 }
 
 .nadpisy{
-    color: #abc4ff;
+    color: #9c6644;
     font-size: clamp(20px, 2vw, 336px);
 }
 
 
 
 .miska_1{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_1 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 .miska_1 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
-    transition: background 0.7s, color 0.7s;
-
+    transition: background 0.3s, color 0.3s;
 }
 
 .miska_1 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 /****************************************/
 
 
 .miska_2{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_2 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 
 .miska_2 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_2 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 /****************************************/
 
 
 .miska_3{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_3 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 .miska_3 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
-    transition: background 0.7s, color 0.7s;
+    transition: background 0.3s, color 0.3s;
 }
 
 .miska_3 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 
 /****************************************/
 
 .miska_4{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_4 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 .miska_4 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_4 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 
 /****************************************/
 
 .miska_5{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_5 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 .miska_5 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_5 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 
 /****************************************/
 
 
 .miska_6{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
+    border: 2px solid #000;
     width: 80%;
     margin: 2vw auto;
     border-radius: 2vw;
 }
 
 .miska_6 h2{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(18px, 2vw, 32px);
 }
 
 .miska_6 button{
     display: block;
-    margin: 0 auto;
+    margin: 1vw auto;
     padding: 1vw 1.5vw;
     border-radius: 1vw;
-    background-color: #abc4ff;
     font-size: clamp(10px, 1.2vw, 18px);
     cursor: pointer;
+    box-shadow: 3px 3px 3px #343a40;
     transition: background 0.7s, color 0.7s;
 }
 
 .miska_6 button:hover{
-    background-color: #abc4ff8b;
+    background-color: #9c6644;
     color: #fff;
+    border-color: #9c6644;
 }
 
 /****************************************/

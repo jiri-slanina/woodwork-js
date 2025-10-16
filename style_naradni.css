@@ -8,7 +8,7 @@
 body{
     font-family:cursive;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg); */
 }
 
 header{
@@ -25,22 +25,48 @@ header{
     width: 12vw;
 }
 
+@media(max-width: 600px) {
+    .photo_header img{
+        width: 100px;
+    }
+}
+
 @media(max-width: 300px) {
     .photo_header img{
-        display: none;
+        display: block;
     }
 }
 
 .photo_header h1{
-    font-size: clamp(25px, 2.7vw, 45px);
+    font-size: clamp(16px, 2.7vw, 45px);
     position: relative;
     letter-spacing: 10px;
     text-align: center;
-    color: #fff;
+    color: #9c6644;
 }
-/**-**************************************/
 
-/*      MAIN
+@media(max-width: 800px) {
+    .photo_header h1{
+        margin-top: 30px;
+    }
+}
+
+.photo_header p{
+    margin-top: 40px;
+    color: #343a40;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+@media(max-width: 800px) {
+    .photo_header p{
+        display: none;
+    }
+}
+
+/*************************************/
+
+/*
+    MAIN
     */
 main{
     text-align: center;
@@ -49,12 +75,58 @@ main{
 .tlacitko_zpet a{
     color: #fff;
     font-size: clamp(15px, 1.8vw, 32px);
-    position: relative;
-    left: 2vw;
+    text-decoration: none;
     background-color: rgba(45, 208, 208, 0.621);
     padding: 2px 5px;
     border-radius: 0.5vw;
+}
+
+@media(max-width: 600px) {
+    .tlacitko_zpet {
+        position: relative;
+        top: 1.5vw;
+        margin-bottom: 3vw;
+        margin-top: 2vw;
+        border-radius: 1vw;
+    }
+}    
+
+.tlacitko_zpet a:hover{
+    border-bottom: 2px solid #fff;
+    color: #000;
+}
+
+
+.galerie {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.galerie img{
+    width: 55vw;
+    margin: 2vw 0;
+}
+/***********************************************/
+
+
+/*
+    MAIN SEKCE
+                */
+main{
+    text-align: center;
+    margin: 2vw auto;
+}
+
+.tlacitko_zpet a{
+    color: #fff;
+    font-size: clamp(15px, 1.8vw, 32px);
+    position: relative;
+    left: 0;
+    background-color: #343a40ad;
+    padding: 3px 8px;
+    border-radius: 0.5vw;
     text-decoration: none;
+    transition: background 0.3s, color 0.3s;
 }
 
 @media(max-width: 600px) {
@@ -69,21 +141,26 @@ main{
 
 .tlacitko_zpet a:hover{
     border-bottom: 2px solid #fff;
-    color: #000;
+    color: #9c6644;
+    background-color: #fff;
+    border-bottom: 2px solid #9c6644;
 }
-
 /*************************************/
 
+
 main h1{
-    color: #fff;
+    color: #343a40;
     font-size: clamp(20px, 2vw, 38px);
     letter-spacing: 5px;
+    border-bottom: 2px solid #343a40;
+    border-top: 2px solid #343a40;
+    margin-top: 2vw;
 }
 
 
 
 main h2{
-    font-size: 45px;
+    font-size: 2vw;
     color: #fff;
     background-color: #ced4da;
     color: #495057;
@@ -93,15 +170,16 @@ main h2{
 
 
 .cely_obsah{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%
 }
 
 .section_1{
+    position: absolute;
+    transform: translate(5%, 10%);
+    display: flex;
+    flex-direction: column;
     margin-top: 3vw;
-    width: 60%;
+    width: 40%;
     display: flex;
     background-color: #495057bd;
 }
@@ -110,17 +188,22 @@ main h2{
     color: #ced4da;
     letter-spacing: 4px;
     margin-top: 3vw;
-    font-size: clamp(18px, 2.2vw, 38px);
+    font-size: clamp(18px, 2.2vw, 32px);
 }
 
 .section_1 img{
     width: 30vw;
+    margin: 0 auto;
 }
 
 
 .section_2{
+    position: absolute;
+    transform: translate(140%, 80%);
+    display: flex;
+    flex-direction: column;
     margin-top: 5vw;
-    width: 60%;
+    width: 40%;
     display: flex;
     background-color: #495057cd;
 }
@@ -128,10 +211,11 @@ main h2{
 .section_2 h3{
     color: #ced4da;
     letter-spacing: 4px;
-    font-size: clamp(18px, 2.2vw, 38px);
+    font-size: clamp(18px, 2.2vw, 32px);
 }
 
 .section_2 img{
     width: 30vw;
+    margin: 0 auto;
 }
 

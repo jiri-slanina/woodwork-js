@@ -99,7 +99,15 @@ function smazInfoTri(){
         MISKY.HTML
                     */
 
+let obrazek = document.getElementById("zobrazeni");
 
+document.getElementById("img_1").addEventListener("click", function() {
+    window.open("img/1 1.png", "_blank")
 
+})
 
+document.getElementById("img_2").addEventListener("click", function() {
+    window.open("img/1.png", "_blank")
+    document.getElementById("krizek").innerHTML = ("X");
+})
 

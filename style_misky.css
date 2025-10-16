@@ -123,6 +123,7 @@ main{
 }
 
 
+/*************************************************/
 .galerie{
     width: 100%;
     margin: 5vw auto;
@@ -140,6 +141,8 @@ main{
 
 
 
+
+
 .miska_1{
     border: 2px solid #000;
     width: 80%;
@@ -149,7 +152,7 @@ main{
 }
 
 .miska_1 img{
-    width: 30vw;
+    width: 20vw;
 }
 
 .miska_1 h2{
@@ -173,6 +176,14 @@ main{
     background-color: #fff;
     color: #000;
     border-color: #9c6644;
+}
+
+#img_1{
+    cursor: pointer;
+}
+
+#img_2{
+    cursor: pointer;
 }
 /****************************************/
 

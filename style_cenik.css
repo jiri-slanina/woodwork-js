@@ -8,7 +8,7 @@
 body{
     font-family:cursive;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg);
+    /* background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img//pozadi_les_drevo.jpg); */
 }
 
 header{
@@ -25,20 +25,43 @@ header{
     width: 12vw;
 }
 
+@media(max-width: 600px) {
+    .photo_header img{
+        width: 100px;
+    }
+}
+
 @media(max-width: 300px) {
     .photo_header img{
-        display: none;
+        display: block;
     }
 }
 
 .photo_header h1{
-    font-size: clamp(25px, 2.7vw, 45px);
+    font-size: clamp(16px, 2.7vw, 45px);
     position: relative;
     letter-spacing: 10px;
     text-align: center;
-    color: #fff;
+    color: #9c6644;
 }
 
+@media(max-width: 800px) {
+    .photo_header h1{
+        margin-top: 30px;
+    }
+}
+
+.photo_header p{
+    margin-top: 40px;
+    color: #343a40;
+    font-size: clamp(14px, 1.5vw, 18px);
+}
+
+@media(max-width: 800px) {
+    .photo_header p{
+        display: none;
+    }
+}
 /*************************************/
 
 /*
@@ -47,18 +70,19 @@ header{
 
 main{
     text-align: center;
+    margin: 2vw auto;
 }
-
 
 .tlacitko_zpet a{
     color: #fff;
     font-size: clamp(15px, 1.8vw, 32px);
     position: relative;
-    left: 2vw;
-    text-decoration: none;
-    background-color: rgba(45, 208, 208, 0.621);
-    padding: 2px 5px;
+    left: 0;
+    background-color: #343a40ad;
+    padding: 3px 8px;
     border-radius: 0.5vw;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
 }
 
 @media(max-width: 600px) {
@@ -67,20 +91,18 @@ main{
         top: 1.5vw;
         margin-bottom: 3vw;
         margin-top: 2vw;
-        border-radius: 1vw;
+        border-radius: 2vw;
     }
 }    
 
 .tlacitko_zpet a:hover{
     border-bottom: 2px solid #fff;
-    color: #000;
+    color: #9c6644;
+    background-color: #fff;
+    border-bottom: 2px solid #9c6644;
 }
 
 
-.tabulka_cenik{
-    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/pozadi.jpg);
-    height: 70vh;
-}
 
 
 
